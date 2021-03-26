@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<Pane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller" stylesheets="@style.css">
+    <children>
+        <Label styleClass="testClass" layoutX="179.0" layoutY="55.0" text="Поле Чудес" />
+        <Label layoutX="183.0" layoutY="80.0" text="***********" />
+        <TextField fx:id="textFieldInput" layoutX="140.0" layoutY="110.0"/>
+        <Button styleClass="start" onAction="#startGame" text="Старт" layoutX="180.0" layoutY="150.0"></Button>
+        <Button styleClass="question" onAction="#question" text="Вопрос" layoutX="175.0" layoutY="180.0"></Button>
+        <Button styleClass="sayLetter" onAction="#sayLetter" text="Сказать букву" layoutX="160.0" layoutY="210.0"></Button>
+        <Button styleClass="sayWord" onAction="#sayWord" text="Сказать слово" layoutX="160.0" layoutY="240.0"></Button>
+    </children>
+</Pane>

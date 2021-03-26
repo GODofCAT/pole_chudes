@@ -1,0 +1,18 @@
+.testClass{
+    -fx-background-color: blanchedalmond;
+}
+.start{
+    -fx-background-color: cornflowerblue;
+}
+.question{
+    -fx-background-color: peru;
+}
+.sayLetter{
+    -fx-background-color: hotpink;
+}
+.sayLetter{
+    -fx-background-color: navajowhite;
+}
+.sayWord{
+    -fx-background-color: cornsilk;
+}
