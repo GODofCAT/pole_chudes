@@ -84,6 +84,8 @@ public class Server
                                 secret = secretsWords[indexOfSecret-1];
                                 question = questions[indexOfSecret-1];
 
+                                guessedWord ="";
+
                                 for (int i = 0; i < secret.length(); i++) {
                                     guessedWord+="*";
                                 }
@@ -109,7 +111,7 @@ public class Server
                                         }else {isGuessed=false;}
 
                                         if (isGuessed){
-                                            response = "yes\n"+guessedWord;
+                                            response = "yes\n"+secret;
                                         }else {response="no\n"+guessedWord;}
                                     }
                                 }else if (request.length()>=9){
